@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ENSPY" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:statusBarColor">@color/enspy_orange_dark</item>
+        <item name="android:navigationBarColor">@color/enspy_cream</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowBackground">@color/enspy_cream</item>
+        <item name="colorPrimary">@color/enspy_orange</item>
+        <item name="colorSecondary">@color/enspy_orange_dark</item>
+    </style>
+
+    <style name="Theme.ENSPY" parent="Base.Theme.ENSPY" />
+</resources>

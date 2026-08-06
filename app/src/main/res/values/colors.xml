@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="enspy_orange">#FFE8700A</color>
+    <color name="enspy_orange_dark">#FFC45100</color>
+    <color name="enspy_cream">#FFFFFBF7</color>
+    <color name="enspy_ink">#FF1C1917</color>
+    <color name="enspy_muted">#FF78716C</color>
+    <color name="enspy_line">#FFE7E5E4</color>
+    <color name="enspy_whatsapp">#FF168C4A</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

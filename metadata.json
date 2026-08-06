@@ -1,0 +1,6 @@
+{
+  "name": "ENSPY",
+  "description": "ENSPY Android application for academic courses, exams, and community",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
