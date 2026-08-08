@@ -1,12 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Primary Brand (Orange - ENSPY) -->
     <color name="enspy_orange">#FFE8700A</color>
     <color name="enspy_orange_dark">#FFC45100</color>
+    <color name="enspy_orange_light">#FFFFA947</color>
+    
+    <!-- Neutral Colors -->
     <color name="enspy_cream">#FFFFFBF7</color>
     <color name="enspy_ink">#FF1C1917</color>
     <color name="enspy_muted">#FF78716C</color>
     <color name="enspy_line">#FFE7E5E4</color>
+    
+    <!-- Status Colors -->
+    <color name="enspy_success">#FF10B981</color>
+    <color name="enspy_warning">#FFF59E0B</color>
+    <color name="enspy_error">#FFEF4444</color>
+    <color name="enspy_info">#FF3B82F6</color>
+    
+    <!-- Surface & Background -->
+    <color name="enspy_surface">#FFFFFFFF</color>
+    <color name="enspy_surface_dim">#FFF3F4F6</color>
+    <color name="enspy_background">#FFFFF9F7</color>
+    
+    <!-- Text Variants -->
+    <color name="enspy_text_primary">#FF1F2937</color>
+    <color name="enspy_text_secondary">#FF6B7280</color>
+    <color name="enspy_text_tertiary">#FF9CA3AF</color>
+    <color name="enspy_text_inverse">#FFFFFFFF</color>
+    
+    <!-- WhatsApp Brand -->
     <color name="enspy_whatsapp">#FF168C4A</color>
+    
+    <!-- Legacy -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>
