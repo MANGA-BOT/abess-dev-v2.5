@@ -1,3 +1,139 @@
 <resources>
+    <!-- APP NAME & BRANDING -->
     <string name="app_name">ENSPY</string>
+    <string name="app_tagline">La réussite académique, ensemble</string>
+    <string name="app_description">Votre plateforme académique numérique</string>
+    
+    <!-- AUTHENTICATION -->
+    <string name="auth_title">Espace Étudiant</string>
+    <string name="auth_subtitle">Accède à tes cours, tes examens et la communauté ENSPY</string>
+    <string name="login">Se connecter</string>
+    <string name="signup">S\'inscrire</string>
+    <string name="signup_title">Créer mon compte</string>
+    <string name="have_account">J\'ai déjà un compte</string>
+    <string name="create_account">Créer un compte étudiant</string>
+    <string name="email_hint">Adresse e-mail</string>
+    <string name="password_hint">Mot de passe</string>
+    <string name="name_hint">Nom complet</string>
+    <string name="level_hint">Niveau (1 ou 2)</string>
+    <string name="filiere_hint">Filière (INFO, MSP, ...)</string>
+    <string name="need_help">Une question sur l\'application ?</string>
+    <string name="contact_developer">Contacter le développeur</string>
+    
+    <!-- NAVIGATION TABS -->
+    <string name="tab_home">Accueil</string>
+    <string name="tab_documents">Bibliothèque</string>
+    <string name="tab_forum">Forum</string>
+    <string name="tab_calendar">Calendrier</string>
+    <string name="tab_profile">Mon profil</string>
+    
+    <!-- HOME SCREEN -->
+    <string name="home_welcome">Bonjour%1$s</string>
+    <string name="home_subtitle">Ta plateforme académique ENSPY</string>
+    <string name="recent_documents">Documents récents</string>
+    <string name="upcoming_events">Prochains rendez-vous</string>
+    <string name="no_recent_documents">Aucun document récent</string>
+    <string name="no_upcoming_events">Aucun événement à venir</string>
+    
+    <!-- DOCUMENTS -->
+    <string name="library_title">Bibliothèque académique</string>
+    <string name="library_subtitle">Retrouve les cours, TD, TP, épreuves et corrigés</string>
+    <string name="search_documents">Rechercher un document ou une matière</string>
+    <string name="filter_all">Tous</string>
+    <string name="filter_courses">Cours</string>
+    <string name="filter_td">TD</string>
+    <string name="filter_tp">TP</string>
+    <string name="filter_exams">Épreuves</string>
+    <string name="filter_answers">Corrigés</string>
+    <string name="no_documents_found">Aucun document ne correspond à ta recherche</string>
+    <string name="open_secure_reader">Ouvrir le lecteur sécurisé</string>
+    <string name="add_favorite">Ajouter aux favoris</string>
+    <string name="added_to_favorites">Ajouté aux favoris</string>
+    <string name="library_loading_error">Impossible de charger la bibliothèque</string>
+    
+    <!-- FORUM -->
+    <string name="forum_title">Forum ENSPY</string>
+    <string name="forum_subtitle">Pose une question, partage une méthode, aide un camarade</string>
+    <string name="new_question">+ Nouvelle question</string>
+    <string name="new_question_title">Nouvelle question</string>
+    <string name="question_title_hint">Titre de la question</string>
+    <string name="question_content_hint">Décris ta question…</string>
+    <string name="post_publish">Publier</string>
+    <string name="answer_hint">Écrire une réponse…</string>
+    <string name="publish_answer">Publier la réponse</string>
+    <string name="answer_published">Réponse publiée</string>
+    <string name="vote_recorded">Vote enregistré</string>
+    <string name="first_question">Le forum est prêt pour ta première question</string>
+    <string name="forum_loading_error">Impossible de charger le forum</string>
+    <string name="login_required_vote">Connecte-toi pour voter</string>
+    <string name="login_required_post">Connecte-toi pour publier</string>
+    
+    <!-- CALENDAR -->
+    <string name="calendar_title">Calendrier académique</string>
+    <string name="calendar_subtitle">Examens, cours, TP et événements spéciaux</string>
+    <string name="no_events">Aucun événement enregistré</string>
+    <string name="event_date">Date à confirmer</string>
+    
+    <!-- PROFILE -->
+    <string name="profile_title">Mon profil</string>
+    <string name="level_default">Niveau 1</string>
+    <string name="filiere_default">Filière à préciser</string>
+    <string name="average_calculator">Calculatrice de moyennes</string>
+    <string name="my_favorites">Mes favoris</string>
+    <string name="new_contribution">Nouvelle contribution</string>
+    <string name="about_help">À propos &amp; aide</string>
+    <string name="logout">Se déconnecter</string>
+    <string name="no_favorites">Aucun favori pour le moment</string>
+    
+    <!-- CALCULATOR -->
+    <string name="calculator_title">Calculatrice de moyenne</string>
+    <string name="marks_input">Notes séparées par des virgules (ex: 12, 14, 9)</string>
+    <string name="coefficients_input">Coefficients séparés par des virgules (ex: 2, 1, 3)</string>
+    <string name="calculate">Calculer ma moyenne</string>
+    <string name="result">Résultat : %.2f / 20</string>
+    <string name="verify_input">Vérifie le nombre de notes et de coefficients</string>
+    <string name="close">Fermer</string>
+    
+    <!-- CONTRIBUTION -->
+    <string name="contribution_title">Partager une ressource</string>
+    <string name="document_title_hint">Titre du document</string>
+    <string name="file_url_hint">Lien sécurisé du fichier PDF</string>
+    <string name="description_hint">Description</string>
+    <string name="submit_contribution">Envoyer la contribution</string>
+    <string name="contribution_submitted">Merci, ta contribution est en attente de validation</string>
+    <string name="contribution_error">Vérifie les informations saisies</string>
+    
+    <!-- ABOUT -->
+    <string name="about_title">ENSPY Étudiants</string>
+    <string name="about_description">La plateforme académique numérique de l\'École Nationale Supérieure Polytechnique de Yaoundé</string>
+    <string name="developed_by">Développé par DevOps Abess</string>
+    <string name="contact_whatsapp">Contacter le développeur sur WhatsApp</string>
+    <string name="phone_number">+237 682 229 367</string>
+    
+    <!-- NOTIFICATIONS -->
+    <string name="notifications_title">Notifications</string>
+    <string name="no_notifications">Tu n\'as pas de nouvelle notification</string>
+    <string name="notification_default">Notification</string>
+    
+    <!-- MESSAGES & ERRORS -->
+    <string name="loading">Chargement…</string>
+    <string name="connection_error">Connexion impossible</string>
+    <string name="fill_required_fields">Renseigne ton e-mail et ton mot de passe</string>
+    <string name="download_secure">Téléchargement sécurisé en cours…</string>
+    <string name="download_error">Le document n\'a pas pu être téléchargé</string>
+    <string name="no_file">Aucun fichier n\'est associé à ce document</string>
+    <string name="login_required_favorites">Connexion requise pour les favoris</string>
+    <string name="server_error">Les documents seront disponibles dès que le serveur répondra</string>
+    <string name="empty_response">Impossible de charger les données</string>
+    
+    <!-- PDF VIEWER -->
+    <string name="pdf_share">Partager</string>
+    <string name="pdf_download">Télécharger</string>
+    <string name="pdf_search">Rechercher</string>
+    <string name="pdf_print">Imprimer</string>
+    
+    <!-- ACCESSIBILITY -->
+    <string name="home_button">Bouton Accueil</string>
+    <string name="notification_button">Bouton Notifications</string>
+    <string name="menu_toggle">Basculer le menu</string>
 </resources>
